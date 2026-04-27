@@ -56,9 +56,8 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|       1200🔢       01         12
-
-|         1200                    |
+|                                 68
+                                  24
 
 #### Manual Calculations
 
@@ -109,8 +108,8 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
-
+|                         |    68                    |
+|                         |    24                    |
 #### Manual Calculations
 
 (Add your calculation here)
