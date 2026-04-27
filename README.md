@@ -151,32 +151,35 @@ END
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
 ORG 1000H
-MOV SI,2000H
 MOV DX,0000H
-MOV AX,[SI]
-MOV BX,[SI+02H]
+MOV AX,1234H
+MOV BX,1234H
 MUL BX
-MOV [SI+04H],AX
-MOV [SI+06H],DX
+MOV SI,1200H
+MOV [SI],AX
+MOV [SI+02H],DX
 MOV AH,4CH
 INT 21H
 CODE ENDS
 END
 ```
 
-#### Output Table
+```#### Output Table
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|                         |       90                 |
+|                         |       5A|                |
+```
 
 #### Manual Calculations
 
-(Add your calculation here)
-
----
+<img width="1280" height="992" alt="image" src="https://github.com/user-attachments/assets/60fab1c6-117f-49f0-9fc1-ad0c8a64a2d9" />
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+
+<img width="633" height="430" alt="image" src="https://github.com/user-attachments/assets/4b9fbc66-0f4a-4207-a99e-fcd07cf4d51e" />
+
 
 ## 4. DIVISION
 
