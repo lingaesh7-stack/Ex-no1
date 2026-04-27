@@ -52,20 +52,26 @@ CODE ENDS
 END
 ```
 
-#### Output Table
+```#### Output Table
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
 |                                 68
                                   24
+```
 
 #### Manual Calculations
 
-(Add your calculation here)
+
+<img width="1280" height="1023" alt="WhatsApp Image 2026-04-27 at 2 45 39 PM" src="https://github.com/user-attachments/assets/e14e5ebd-f8a5-4106-85b2-6197eb6a042f" />
+
 
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+
+<img width="643" height="421" alt="image" src="https://github.com/user-attachments/assets/e159e6ee-f0a8-4752-a3c1-ede1349a2883" />
+
 
 ## 2. SUBTRACTION
 
@@ -89,8 +95,8 @@ ASSUME CS: CODE, DS: CODE
 ORG 1000H
 MOV SI,2000H
 MOV CL,00H
-MOV AX,[SI]
-MOV BX,[SI+02H]
+MOV AX,1234H
+MOV BX,1234H
 SUB AX,BX
 JNC L1
 INC CL
@@ -108,16 +114,22 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |    68                    |
-|                         |    24                    |
+|                         |      00                  |
+|                         |      00                  |
 #### Manual Calculations
 
-(Add your calculation here)
+
+<img width="860" height="1280" alt="WhatsApp Image 2026-04-27 at 3 34 02 PM" src="https://github.com/user-attachments/assets/536b303d-58ff-4fa1-b34e-0bf7538d6830" />
+
+
 
 ---
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+
+<img width="637" height="420" alt="image" src="https://github.com/user-attachments/assets/29bc242e-ce39-4814-b1ff-edf63d5d445c" />
+
 
 ## 3. MULTIPLICATION
 
