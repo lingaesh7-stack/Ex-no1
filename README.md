@@ -174,7 +174,7 @@ END
 
 #### Manual Calculations
 
-<img width="1280" height="992" alt="image" src="https://github.com/user-attachments/assets/60fab1c6-117f-49f0-9fc1-ad0c8a64a2d9" />
+<img width="1280" height="987" alt="image" src="https://github.com/user-attachments/assets/3029ad22-fcbd-4fbe-8474-89112e9afd13" />
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
 
