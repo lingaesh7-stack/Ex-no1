@@ -169,7 +169,7 @@ END
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
 |                         |       90                 |
-|                         |       5A|                |
+|                         |       5A                 |
 ```
 
 #### Manual Calculations
@@ -201,23 +201,25 @@ ASSUME CS: CODE, DS: CODE
 ORG 1000H
 MOV SI,2000H
 MOV DX,0000H
-MOV AX,[SI]
-MOV BX,[SI+02H]
+MOV AX,1234H
+MOV BX,1234H
 DIV BX
-MOV [SI+04H],AX
-MOV [SI+06H],DX
+MOV SI,1200H
+MOV [SI],AX
+MOV [SI+02H],DX
 MOV AH,4CH
 INT 21H
 CODE ENDS
 END
 ```
 
-#### Output Table
+```#### Output Table
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
-
+|                         |         01               |
+|                         |         00               |
+```
 #### Manual Calculations
 
 (Add your calculation here)
