@@ -178,7 +178,7 @@ END
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
 
-<img width="633" height="430" alt="image" src="https://github.com/user-attachments/assets/4b9fbc66-0f4a-4207-a99e-fcd07cf4d51e" />
+<img width="622" height="276" alt="image" src="https://github.com/user-attachments/assets/70435644-4209-45f2-9f81-6f8d7483a72a" />
 
 
 ## 4. DIVISION
@@ -228,9 +228,7 @@ END
 ---
 ## OUTPUT FROM MASM SOFTWARE
 
-<img width="640" height="427" alt="image" src="https://github.com/user-attachments/assets/1966d61d-ca9a-4ce1-b993-aafbfab6fdbf" />
-
-
+<img width="640" height="427" alt="image" src="https://github.com/user-attachments/assets/55f7f42a-910c-485b-8e8d-493d027d8165" />
 
 
 ## RESULT
