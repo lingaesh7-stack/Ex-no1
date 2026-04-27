@@ -222,10 +222,14 @@ END
 ```
 #### Manual Calculations
 
-(Add your calculation here)
+<img width="1280" height="957" alt="WhatsApp Image 2026-04-27 at 9 33 00 PM" src="https://github.com/user-attachments/assets/d58efd4d-4ecb-4741-943a-7cfdaca73a0e" />
+
 
 ---
 ## OUTPUT FROM MASM SOFTWARE
+
+<img width="640" height="427" alt="image" src="https://github.com/user-attachments/assets/1966d61d-ca9a-4ce1-b993-aafbfab6fdbf" />
+
 
 
 
